@@ -2,7 +2,7 @@
   "id": "freeformuniversal",
   "title": "Freeform Universal by Kizrak",
   "description": "My homebrew implementation of FU: Freeform Universal RPG",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "compatibility": {
     "minimum": 13,
     "verified": 13
