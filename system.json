@@ -4,8 +4,8 @@
   "description": "My homebrew implementation of FU: Freeform Universal RPG",
   "version": "0.0.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": 12
+    "minimum": 13,
+    "verified": 13
   },
   "authors": [{
     "name": "Kizrak (Alan Baines)",
