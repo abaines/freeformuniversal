@@ -1,0 +1,58 @@
+{
+    "Actor": {
+        "types": [
+            "character",
+            "npc"
+        ],
+        "templates": {
+            "base": {
+                "health": {
+                    "value": 10,
+                    "min": 0,
+                    "max": 10
+                },
+                "power": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 3
+                },
+                "biography": "",
+                "bodyDescriptor": "",
+                "mindDescriptor": "",
+                "edgeDescriptor": "",
+                "flawDescriptor": ""
+            }
+        },
+        "character": {
+            "templates": [
+                "base"
+            ]
+        },
+        "npc": {
+            "templates": [
+                "base"
+            ]
+        }
+    },
+    "Item": {
+        "types": [
+            "gear",
+            "power"
+        ],
+        "templates": {
+            "base": {
+                "description": ""
+            }
+        },
+        "gear": {
+            "templates": [
+                "base"
+            ]
+        },
+        "power": {
+            "templates": [
+                "base"
+            ]
+        }
+    }
+}
