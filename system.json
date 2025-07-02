@@ -13,26 +13,17 @@
     "email": "YOUR EMAIL ADDRESS HERE",
     "discord": "YOUR DISCORD USERNAME HERE"
   }],
-  "esmodules": ["system.mjs"],
+  "esmodules": ["module/system.mjs"],
   "styles": ["styles/system-styles.css"],
   "languages": [{
     "lang": "en",
     "name": "English",
     "path": "lang/en.json"
   }],
-  "packs": [{
-    "name": "monsters",
-    "label": "Monsters",
-    "type": "Actor"
-  },
-  {
-    "name": "items",
-    "label": "Items",
-    "type": "Item"
-  }],
+  "packs": [],
   "documentTypes": {
     "Actor": {
-      "characters": { "htmlFields": ["background.biography"] },
+      "character": { "htmlFields": ["background.biography"] },
       "npc": { "htmlFields": ["background.biography"] }
     },
     "Item": {
