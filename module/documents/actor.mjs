@@ -1,5 +1,10 @@
 const { HTMLField, NumberField, SchemaField, StringField } = foundry.data.fields;
 
+export class FUActor extends Actor
+{
+
+}
+
 /* -------------------------------------------- */
 /*  Actor Models                                */
 /* -------------------------------------------- */

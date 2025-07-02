@@ -26,7 +26,7 @@ Hooks.once("init", () => {
         }
     };
 
-    /*
+    //*
     foundry.documents.collections.Actors.registerSheet('freeformuniversal', FUActorSheet, {
         types: ["character", "npc"],
         makeDefault: true,

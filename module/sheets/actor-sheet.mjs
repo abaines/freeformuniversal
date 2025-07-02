@@ -1,4 +1,6 @@
-export class FUActorSheet extends foundry.documents.collections.Actors {
+
+
+export class FUActorSheet extends foundry.appv1.sheets.ActorSheet {
     static get defaultOptions() {
         console.log(
             "⚙ FUActorSheet defaultOptions"
