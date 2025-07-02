@@ -7,24 +7,32 @@
     "minimum": 13,
     "verified": 13
   },
-  "authors": [{
-    "name": "Kizrak (Alan Baines)",
-    "url": "YOUR WEBSITE ADDRESS HERE",
-    "email": "YOUR EMAIL ADDRESS HERE",
-    "discord": "YOUR DISCORD USERNAME HERE"
-  }],
-  "esmodules": ["module/system.mjs"],
-  "styles": ["styles/system-styles.css"],
-  "languages": [{
-    "lang": "en",
-    "name": "English",
-    "path": "lang/en.json"
-  }],
+  "authors": [
+    {
+      "name": "Kizrak (Alan Baines)",
+      "url": "YOUR WEBSITE ADDRESS HERE",
+      "email": "YOUR EMAIL ADDRESS HERE",
+      "discord": "YOUR DISCORD USERNAME HERE"
+    }
+  ],
+  "esmodules": [
+    "module/system.mjs"
+  ],
+  "styles": [
+    "styles/system-styles.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
   "packs": [],
   "documentTypes": {
     "Actor": {
       "character": {},
-      "npc": { }
+      "npc": {}
     },
     "Item": {
       "gear": {},
