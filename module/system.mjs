@@ -26,6 +26,7 @@ Hooks.once("init", () => {
 
     /*
     foundry.documents.collections.Actors.registerSheet('freeformuniversal', FUActorSheet, {
+        types: ["character", "npc"],
         makeDefault: true,
         label: 'FU.SheetLabels.Actor',
     });
@@ -33,3 +34,6 @@ Hooks.once("init", () => {
 
     console.log("🍎 system.mjs Hooks.once init");
 });
+
+console.log("🔃 system.mjs");
+

@@ -28,3 +28,6 @@ export class FUActorDataModel extends foundry.abstract.TypeDataModel {
         };
     }
 }
+
+console.log("🔃 actor.mjs");
+
