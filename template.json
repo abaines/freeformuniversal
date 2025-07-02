@@ -4,6 +4,9 @@
             "character",
             "npc"
         ],
+        "htmlFields": [
+            "biography"
+        ],
         "templates": {
             "base": {
                 "health": {
@@ -38,6 +41,9 @@
         "types": [
             "gear",
             "power"
+        ],
+        "htmlFields": [
+            "description"
         ],
         "templates": {
             "base": {
