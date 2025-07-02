@@ -1,7 +1,7 @@
 {
   "id": "freeformuniversal",
   "title": "Freeform Universal by Kizrak",
-  "description": "My homebrew implementation of FU: Freeform Universal RPG",
+  "description": "Kizrak's homebrew implementation of FU: Freeform Universal RPG",
   "version": "0.0.1",
   "compatibility": {
     "minimum": 13,
@@ -22,23 +22,22 @@
   }],
   "packs": [{
     "name": "monsters",
-    "label": "My Monsters",
+    "label": "Monsters",
     "type": "Actor"
   },
   {
     "name": "items",
-    "label": "My Items",
+    "label": "Items",
     "type": "Item"
   }],
   "documentTypes": {
     "Actor": {
-      "hero": { "htmlFields": ["background.biography"] },
-      "villain": { "htmlFields": ["background.biography"] },
-      "pawn": {}
+      "characters": { "htmlFields": ["background.biography"] },
+      "npc": { "htmlFields": ["background.biography"] }
     },
     "Item": {
-      "weapon": {},
-      "spell": {}
+      "gear": {},
+      "power": {}
     }
   },
   "socket": false,
@@ -49,7 +48,7 @@
   },
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
-  "url": "https://your/hosted/system/repo/",
+  "url": "https://github.com/abaines/freeformuniversal",
   "manifest": "https://your/hosted/system/repo/system.json",
   "download": "https://your/packaged/download/archive.zip"
 }
