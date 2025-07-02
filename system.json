@@ -23,8 +23,8 @@
   "packs": [],
   "documentTypes": {
     "Actor": {
-      "character": { "htmlFields": ["background.biography"] },
-      "npc": { "htmlFields": ["background.biography"] }
+      "character": {},
+      "npc": { }
     },
     "Item": {
       "gear": {},

@@ -1,1 +1,12 @@
-{}
+{
+    "FU": {
+        "SheetLabels": {
+            "Actor": "HI!"
+        }
+    },
+    "TYPES":{
+        "Actor":{
+            "character": "CHARECETZER!"
+        }
+    }
+}
