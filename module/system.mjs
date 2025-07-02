@@ -1,6 +1,6 @@
 
 import { FUActorDataModel } from './documents/actor.mjs'
-//import { FUActorSheet } from './sheets/actor-sheet.mjs'
+import { FUActorSheet } from './sheets/actor-sheet.mjs'
 
 Hooks.once("init", () => {
     console.log("🍏 system.mjs Hooks.once init");
@@ -10,6 +10,8 @@ Hooks.once("init", () => {
     }
 
     //CONFIG.Actor.documentClass = FUActorDataModel;
+    CONFIG.Actor.dataModels.character = FUActorDataModel;
+
 
     CONFIG.Actor.trackableAttributes = {
         character: {
@@ -27,7 +29,7 @@ Hooks.once("init", () => {
         makeDefault: true,
         label: 'FU.SheetLabels.Actor',
     });
-    */
+    //*/
 
     console.log("🍎 system.mjs Hooks.once init");
 });
