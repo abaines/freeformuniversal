@@ -7,6 +7,7 @@ export class FUActorSheet extends foundry.documents.collections.Actors {
             classes: ['freeformuniversal', 'sheet', 'actor'],
             width: 500,
             height: 500,
+            template: "systems/freeformuniversal/templates/actor-${this.actor.type}-sheet.hbs",
         });
     }
 
