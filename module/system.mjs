@@ -5,7 +5,9 @@ import { FUActorSheet } from './sheets/actor-sheet.mjs'
 Hooks.once("init", () => {
     console.log("🍏 system.mjs Hooks.once init");
 
+    /*
     CONFIG.debug.hooks = true;
+    //*/
 
     game.freeformuniversal = {
         FUActorDataModel
